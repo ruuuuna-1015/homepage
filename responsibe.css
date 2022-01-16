@@ -1,0 +1,26 @@
+@media (max-width: 560px) {
+  .main-contents {
+    display: block;
+  }
+  .main-content {
+    width: 100%;
+  }
+
+  .collection-contents {
+    display: block;
+  }
+  .collection-content {
+    width: 100%;
+  }
+  ul {
+    flex-direction: column;
+  }
+  li {
+    width: 80%;
+    margin: 30px auto 0;
+  }
+  li img {
+    display: block;
+    margin: 0 auto;
+  } 
+}
